@@ -26,7 +26,7 @@ exports.accessToken = async (req, res) => {
     const response = await axios.post(url, qs.stringify(payload), {
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
-        " Accept": "application/json",
+        "Accept": "application/json",
       },
     });
 
